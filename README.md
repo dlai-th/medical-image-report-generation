@@ -1,1 +1,0 @@
-# medical-image-report-generation
