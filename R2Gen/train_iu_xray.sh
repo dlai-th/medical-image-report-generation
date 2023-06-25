@@ -1,0 +1,13 @@
+python main_train.py \
+--image_dir data/ffair/images/ \
+--ann_path data/ffair/result.json \
+--dataset_name ffair \
+--max_seq_length 60 \
+--threshold 3 \
+--batch_size 16 \
+--epochs 150 \
+--save_dir results/ffair \
+--step_size 50 \
+--gamma 0.1 \
+--resume results/ffair/model_best_2.pth \
+--seed 9223

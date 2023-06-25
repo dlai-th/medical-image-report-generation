@@ -1,0 +1,13 @@
+python main_test.py \
+--image_dir data/ffair/images/ \
+--ann_path data/ffair/result.json \
+--dataset_name ffair \
+--max_seq_length 60 \
+--threshold 3 \
+--batch_size 1 \
+--epochs 2 \
+--save_dir results/ffair \
+--step_size 50 \
+--gamma 0.1 \
+--seed 9223 \
+--load results/ffair/model_best_2.pth
